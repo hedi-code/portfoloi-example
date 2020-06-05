@@ -91,6 +91,7 @@ body {
   margin-bottom: 1em;
   position: relative;
   font-weight: bold;
+  opacity: 0;
 }
 
 .wrapper .title h1::before {
@@ -107,12 +108,14 @@ body {
   margin-right: 1.2em;
   line-height: 2em;
   color: #bdc0cc;
+  opacity: 0;
 }
 
 .wrapper .title .title-image {
   width: 650px;
   z-index: -1;
   margin-left: 1.2em;
+  opacity: 0;
 }
 
 .animate {
