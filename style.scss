@@ -76,12 +76,12 @@ body {
 
       &::before {
         content: " ";
-        top: 25%;
+        top: 23%;
         z-index: -1;
         background-color: skyblue;
         position: absolute;
-        height: 10px;
-        width: 80px;
+        height: 20px;
+        width: 100px;
       }
     }
     p {
