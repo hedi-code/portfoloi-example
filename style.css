@@ -4,6 +4,15 @@
   margin: 0;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 body {
   background-color: #3a3e4b;
   background: url("bg.jpg");
@@ -34,7 +43,6 @@ body {
 
 .wrapper nav ul {
   height: 100%;
-  list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,7 +54,7 @@ body {
   cursor: pointer;
 }
 
-.wrapper nav li:hover {
+.wrapper nav a:hover {
   color: gray;
 }
 

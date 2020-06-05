@@ -3,6 +3,13 @@
   padding: 0;
   margin: 0;
 }
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
 body {
   background-color: #3a3e4b;
   background: url("bg.jpg");
@@ -22,7 +29,6 @@ body {
     flex-direction: row-reverse;
     ul {
       height: 100%;
-      list-style-type: none;
       display: flex;
       font-weight: bold;
     }
@@ -30,7 +36,7 @@ body {
       margin: 0 1em;
       cursor: pointer;
     }
-    li:hover {
+    a:hover {
       color: gray;
     }
     li:first-child,
