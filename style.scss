@@ -51,11 +51,12 @@ body {
 
   .title {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin-top: 3em;
     padding: 4em 0;
     h1 {
-      font-size: 50px;
+      font-size: 70px;
       margin-right: 1.2em;
       margin-bottom: 1em;
       position: relative;
@@ -63,7 +64,7 @@ body {
 
       &::before {
         content: " ";
-        top: 45px;
+        top: 25%;
         z-index: -1;
         background-color: skyblue;
         position: absolute;
