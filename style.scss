@@ -4,7 +4,6 @@
   margin: 0;
 }
 body {
-  height: 100vh;
   background-color: #3a3e4b;
   background: url("bg.jpg");
   background-repeat: no-repeat;
@@ -15,12 +14,14 @@ body {
 .wrapper {
   width: 90%;
   margin: 0 auto;
+
   nav {
     display: flex;
     justify-content: space-between;
-    margin: 2em 0;
+    padding: 1.5em 5%;
     flex-direction: row-reverse;
     ul {
+      height: 100%;
       list-style-type: none;
       display: flex;
       font-weight: bold;
@@ -58,7 +59,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-top: 3em;
-    padding: 4em 0;
+    padding: 3em 0;
     h1 {
       font-size: 70px;
       margin-right: 1.2em;
@@ -90,7 +91,7 @@ body {
 }
 
 .animate {
-  animation: reveal 1s forwards;
+  animation: reveal 2s forwards;
 }
 
 @keyframes reveal {
