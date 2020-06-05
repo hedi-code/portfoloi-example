@@ -73,12 +73,12 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 4em;
+  margin-top: 3em;
   padding: 4em 0;
 }
 
 .wrapper .title h1 {
-  font-size: 70px;
+  font-size: 50px;
   margin-right: 1.2em;
   margin-bottom: 1em;
   position: relative;
@@ -87,7 +87,7 @@ body {
 
 .wrapper .title h1::before {
   content: " ";
-  top: 25%;
+  top: 45px;
   z-index: -1;
   background-color: skyblue;
   position: absolute;
@@ -102,7 +102,7 @@ body {
 }
 
 .wrapper .title .title-image {
-  width: 700px;
+  width: 650px;
   z-index: -1;
   margin-left: 1.2em;
 }
