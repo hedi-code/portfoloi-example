@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Features</li>
+            <li>Team</li>
+            <li>Contact</li>
+          </ul>
+
+          <span class="logo">Logo</span>
+        </nav>
+        <!--TODO logo-->
+      </header>
+      <div class="title">
+        <div>
+          <h1 class="anim">
+            Help you make the house of your dreams
+          </h1>
+          <p class="anim">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            quod, amet impedit consequatur cum vitae nesciunt earum doloribus
+            deserunt perferendis aperiam rem veniam eos. Provident cumque maxime
+            explicabo voluptatem ducimus?
+          </p>
+        </div>
+        <img src="img.jpg" alt="" class="title-image anim" />
+      </div>
+    </div>
+    <script>
+      function animation() {
+        const animations = document.querySelectorAll(".anim");
+        observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting == true) {
+              entry.target.classList.add("animate");
+            } else {
+              entry.target.classList.remove("animate");
+            }
+          });
+        });
+
+        animations.forEach((obj) => {
+          observer.observe(obj);
+        });
+      }
+      animation();
+    </script>
+  </body>
+</html>
