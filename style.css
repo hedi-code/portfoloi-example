@@ -43,6 +43,11 @@ body {
 
 .wrapper nav li {
   margin: 0 1em;
+  cursor: pointer;
+}
+
+.wrapper nav li:hover {
+  color: gray;
 }
 
 .wrapper nav li:first-child,

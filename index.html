@@ -41,6 +41,7 @@
         const animations = document.querySelectorAll(".anim");
         observer = new IntersectionObserver((entries) => {
           entries.forEach((entry) => {
+            console.log(entry);
             if (entry.isIntersecting == true) {
               entry.target.classList.add("animate");
             } else {
